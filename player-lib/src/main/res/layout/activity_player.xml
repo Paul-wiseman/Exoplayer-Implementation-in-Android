@@ -1,0 +1,45 @@
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/exo_white">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        app:fastforward_increment="30000"
+        app:rewind_increment="30000"
+        app:show_timeout="1000"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0A2E65"
+        android:layout_marginTop="18dp"
+        android:text="How to perfectly sew Adire"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#506992"
+        android:layout_marginLeft="15dp"
+        android:text="Posed 1 month ago"/>
+
+</LinearLayout>
